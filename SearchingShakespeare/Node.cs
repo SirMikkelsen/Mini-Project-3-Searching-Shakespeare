@@ -4,11 +4,22 @@ using System.Text;
 
 namespace SearchingShakespeare
 {
-   public abstract class Node
+   public class Node
     {
-       public abstract void Add(Key key, int value);
-       public abstract int Find(Key key);
-       public abstract Node Locate(Key key);
+        public Node()
+        {
+            Label = "";
+            SubNodes = new List<Node>();
+        }
+
+        public Node(string l)
+        {
+            Label = l;
+            SubNodes = new List<Node>();
+        }
+        public string Label;
+        public List<Node> SubNodes;
     }
+}
 }
     

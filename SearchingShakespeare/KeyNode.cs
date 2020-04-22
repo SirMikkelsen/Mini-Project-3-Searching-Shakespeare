@@ -4,22 +4,22 @@ using System.Text;
 
 namespace SearchingShakespeare
 {
-    public class KeyNode : Node
+    public class KeyNode 
     {
         private Key _key;
         private int _value;
 
-        public override void Add(Key key, int value)
+        public  void Add(Key key, int value)
         {
             throw new NotImplementedException();
         }
 
-        public override int Find(Key key)
+        public  int Find(Key key)
         {
             throw new NotImplementedException();
         }
 
-        public override Node Locate(Key key)
+        public Node Locate(Key key)
         {
             throw new NotImplementedException();
         }
