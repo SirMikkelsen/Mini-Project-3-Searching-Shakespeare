@@ -9,8 +9,8 @@ namespace SearchingShakespeare
         
         private Node _more;
         private LinkedNode _next;
-        
         private Key _key;
+       
         public override void Add(Key key, int value)
         {
             throw new NotImplementedException();
