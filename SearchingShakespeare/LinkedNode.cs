@@ -6,9 +6,12 @@ namespace SearchingShakespeare
 {
     public class LinkedNode : Node
     {
-        private Node _node;
+        
+        private Node _more;
+        private LinkedNode _next;
+        
         private Key _key;
-        public override void add(Key key, int value)
+        public override void Add(Key key, int value)
         {
             throw new NotImplementedException();
         }
@@ -18,7 +21,7 @@ namespace SearchingShakespeare
             throw new NotImplementedException();
         }
 
-        public override Node locate(Key key)
+        public override Node Locate(Key key)
         {
             throw new NotImplementedException();
         }
