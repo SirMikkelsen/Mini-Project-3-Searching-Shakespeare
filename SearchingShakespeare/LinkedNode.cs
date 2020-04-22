@@ -10,10 +10,16 @@ namespace SearchingShakespeare
         private Node _more;
         private LinkedNode _next;
         private Key _key;
+
+
+
        
         public void Add(Key key, int value)
         {
-            throw new NotImplementedException();
+            _more = new Node();
+           
+            
+
         }
 
         public int Find(Key key)
