@@ -4,7 +4,8 @@ using System.Text;
 
 namespace SearchingShakespeare
 {
-    class CompactTrie
+  public class CompactTrie
     {
+        private Node _node;
     }
 }
